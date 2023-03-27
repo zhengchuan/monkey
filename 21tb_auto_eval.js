@@ -8,6 +8,7 @@
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=21tb.com
 // @grant        none
 // @require      https://code.jquery.com/jquery-2.1.4.min.js
+// @license      MIT
 // ==/UserScript==
 
 (function() {
