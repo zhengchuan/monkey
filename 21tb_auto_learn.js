@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         时代光华课程自动学习
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  时代光华课程自动学习，每10分钟自动刷新页面（延迟30秒，预留网站计算时延），课程完成后自动点击下一步
 // @author       zhengchuan
 // @match        https://v4.21tb.com/els/html/courseStudyItem/courseStudyItem.learn.do*
