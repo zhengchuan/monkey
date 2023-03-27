@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         时代光华课程一键评分
+// @name         时代光华课程自动评分
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  时代光华课程自动满分并提交
 // @author       zhengchuan
 // @match        https://v4.21tb.com/els/html/studyCourse/studyCourse.enterCourse.do*
