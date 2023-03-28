@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         时代光华课程学习自动脚本
 // @namespace    https://github.com/zhengchuan
-// @version      0.2
+// @version      0.3
 // @description  时代光华课程自动学习，自动进入学习，定时刷新课程页面，自动点击下一步，自动课程评价满分
 // @author       zhengchuan
 // @match        https://v4.21tb.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=21tb.com
+// @updateURL    https://github.com/zhengchuan/monkey/blob/main/21tb_auto.js
+// @downloadURL  https://github.com/zhengchuan/monkey/blob/main/21tb_auto.js
 // @require      https://code.jquery.com/jquery-2.1.4.min.js
 // @grant        none
 // @license      MIT
