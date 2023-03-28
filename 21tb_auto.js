@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         时代光华课程学习自动脚本
 // @namespace    https://github.com/zhengchuan
-// @version      0.1
+// @version      0.2
 // @description  时代光华课程自动学习，自动进入学习，定时刷新课程页面，自动点击下一步，自动课程评价满分
 // @author       zhengchuan
 // @match        https://v4.21tb.com/*
