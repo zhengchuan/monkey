@@ -33,7 +33,6 @@
         }
         // 630秒自动刷新页面
         count++;
-        console.log("当前自动计算第"+count+"次")
         if(count*offset/1000 > 630){
             location.reload();
         }
