@@ -74,10 +74,9 @@
         offset : 10000,
         // 自动操作
         auto : function(){
-            // 学习进度100%时自动点击下一步
-            // 完成进度
-            let sr = document.getElementById("rms-studyRate").textContent;
-            if(sr == '100'){
+            // 下一步按钮可见时自动点击下一步
+            let nextBtn = $("#goNextStep");
+            if(nextBtn.is(":visible")){
                 $("#goNextStep").click();
                 return;
             }
