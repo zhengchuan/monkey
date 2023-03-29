@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         时代光华课程自动学习
 // @namespace    https://github.com/zhengchuan
-// @version      0.2
+// @version      0.3
 // @description  时代光华课程自动学习，每10分钟自动刷新页面（延迟30秒，预留网站计算时延），课程完成后自动点击下一步
 // @author       zhengchuan
 // @match        https://v4.21tb.com/els/html/courseStudyItem/courseStudyItem.learn.do*
@@ -24,10 +24,9 @@
 
     // 自动操作
     function auto(){
-        // 完成进度
-        let sr = document.getElementById("rms-studyRate").textContent;
-        // 学习进度100%时自动点击下一步
-        if(sr == '100'){
+        // 下一步按钮可见时自动点击下一步
+        let nextBtn = $("#goNextStep");
+        if(nextBtn.is(":visible")){
             $("#goNextStep").click();
             return;
         }
