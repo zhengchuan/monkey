@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         通威FBC去水印
 // @namespace    http://tampermonkey.net/
-// @version      2025-03-04
+// @version      1.0
 // @description  去掉通威FBC文章水印，阅读更丝滑
 // @author       ZhengChuan
 // @match        http://fbc.tongwei.com/*
