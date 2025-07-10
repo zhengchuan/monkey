@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         永祥去水印
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.2
 // @description  去掉通威FBC、永祥ERP水印，阅读更丝滑
 // @author       ZhengChuan
 // @match        http://fbc.tongwei.com/*
