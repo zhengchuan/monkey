@@ -1,10 +1,11 @@
 // ==UserScript==
-// @name         通威FBC去水印
+// @name         永祥去水印
 // @namespace    http://tampermonkey.net/
-// @version      1.0
-// @description  去掉通威FBC文章水印，阅读更丝滑
+// @version      1.1
+// @description  去掉通威FBC、永祥ERP水印，阅读更丝滑
 // @author       ZhengChuan
 // @match        http://fbc.tongwei.com/*
+// @match        https://yxerp.tongwei.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=tongwei.com
 // @grant        none
 // @license      MIT
@@ -14,10 +15,23 @@
 
 (function() {
     'use strict';
-    setTimeout(function(){
-        let water = document.getElementById("1.23452384164.123412415");
-        if(!!water){
-            water.style.display='none';
-        }
-    },2500)
+
+    let currentUrl = document.URL;
+    if(currentUrl.startsWith("http://fbc.tongwei.com/")){
+        setTimeout(function(){
+            let water = document.getElementById("1.23452384164.123412415");
+            if(!!water){
+                water.style.display='none';
+            }
+        },2500)
+    }
+    if(currentUrl.startsWith("https://yxerp.tongwei.com/")){
+         setTimeout(function(){
+            let waters = document.getElementsByClassName("T8JcTdAi");
+            if(waters.length>0){
+                waters[0].style.display='none';
+            }
+        },2500)
+
+    }
 })();
