@@ -1,25 +1,24 @@
 // ==UserScript==
-// @name         时代光华课程学习自动脚本
+// @name         永祥学习中心自动脚本
 // @namespace    https://github.com/zhengchuan
-// @version      0.4
+// @version      0.5
 // @description  时代光华课程自动学习，自动进入学习，定时刷新课程页面，自动点击下一步，自动课程评价满分
 // @author       zhengchuan
-// @match        https://v4.21tb.com/*
+// @match        https://yxgf.21tb.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=21tb.com
-// @updateURL    https://github.com/zhengchuan/monkey/blob/main/21tb_auto.js
-// @downloadURL  https://github.com/zhengchuan/monkey/blob/main/21tb_auto.js
-// @require      https://code.jquery.com/jquery-2.1.4.min.js
 // @grant        none
 // @license      MIT
+// @downloadURL https://update.greasyfork.org/scripts/521103/%E6%B0%B8%E7%A5%A5%E5%AD%A6%E4%B9%A0%E4%B8%AD%E5%BF%83%E8%87%AA%E5%8A%A8%E8%84%9A%E6%9C%AC.user.js
+// @updateURL https://update.greasyfork.org/scripts/521103/%E6%B0%B8%E7%A5%A5%E5%AD%A6%E4%B9%A0%E4%B8%AD%E5%BF%83%E8%87%AA%E5%8A%A8%E8%84%9A%E6%9C%AC.meta.js
 // ==/UserScript==
 
 (function() {
     'use strict';
 
     let util = {
-        url_course_info:'https://v4.21tb.com/els/html/course/course.courseInfo.do',
-        url_course_learn:'https://v4.21tb.com/els/html/courseStudyItem/courseStudyItem.learn.do',
-        url_course_eval:'https://v4.21tb.com/els/html/studyCourse/studyCourse.enterCourse.do',
+        url_course_info:'https://yxgf.21tb.com/els/html/course/course.courseInfo.do',
+        url_course_learn:'https://yxgf.21tb.com/els/html/courseStudyItem/courseStudyItem.learn.do',
+        url_course_eval:'https://yxgf.21tb.com/els/html/studyCourse/studyCourse.enterCourse.do',
         /**
          * 初始化加载，全局入口
          */
